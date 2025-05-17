@@ -1,0 +1,26 @@
+Hi Dario,
+
+Thanks for reaching out! Glad to hear the project is coming along well. I'm happy to work with you and the team on analyzing the performance of the current strategy, as well as provide some suggestions on how we can make it more accurate.
+
+To start us off I went ahead and took a stab at improving the current prompt, attached you'll find a PDF where I outline the steps I took to:
+
+1. Evaluate the current prompt's accuracy
+2. Improve the performance via some quick tuning
+
+If you want to dive deeper, I've also linked a github repo with a Jupyter notebook that will show it in action, and a sample_solution.py file that distills the notebook into helper functions for your team.
+
+As you go through the material, there's a couple of questions I had around the project that'll help steer our team in the right direction:
+
+1. What's the overall use case for the internal tool? Is it mostly so that end users can perform their analyses without needing SQL expertise or knowledge of the underlying data?
+2. How many users/teams will this tool service? Do you have a rough estimate on how many queries the analytics team runs on a daily basis?
+3. Will the internal tool be used for production workloads? As in, are any other workflows within (company XYZ) rely on the outputs from the tool, or is it purely end-user facing?
+4. Regarding token usage, is there a top-end budget allocated for the internal tool? We're happy to guide you through a TCO if you have rough estimates around query volume.
+
+As we reignite this project, I'd love to jump on a call and discuss these points a little more in-depth. Do you have any availability early next week? I should be wide open Monday/Tuesday.
+
+Looking forward to kicking this off again!
+
+Regards,
+
+Lucas
+Applied AI Engineer @ Anthropic
